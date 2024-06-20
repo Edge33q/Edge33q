@@ -5,10 +5,10 @@
  const url = require("url");
  var path = require("path");
  const crypto = require("crypto");
- const UserAgent = require('user-agents');
+ const UserAgent = require("user-agents");
  const fs = require("fs");
- const axios = require('axios');
- const https = require('https');
+ const axios = require("axios");
+ const https = require("https");
 
  process.setMaxListeners(0);
  require("events").EventEmitter.defaultMaxListeners = 0;
